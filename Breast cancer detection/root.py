@@ -27,7 +27,7 @@ print("Standard Deviation : {:.2f} %".format(score.std()*100))
 
 plt.scatter(range(1,21),Y_test[:20],color='red')
 plt.plot(range(1,21),Y_pred[:20],color='blue')
-plt.title("Logisti regression on Breast cancer")
+plt.title("Logistic regression on Breast cancer")
 plt.xlabel("Data")
 plt.ylabel("Class")
 plt.show()
